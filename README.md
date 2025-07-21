@@ -32,7 +32,7 @@ Use this as your go-to guide to quickly find learning materials per branch and p
 • Taking User Input in Programs  
 
 🔗 GitHub: Core-Java/Day1_ProgrammingElements  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day1_ProgrammingElements  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/Core-Java/Day1_ProgrammingElements
 
 ------------------------------------------------------------
 
@@ -47,7 +47,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day1_Pro
 • switch Statement  
 
 🔗 GitHub: Core-Java/Day2_JavaControlFlows  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day2_JavaControlFlows  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/Core-Java/Day2_JavaControlFlows
 
 ------------------------------------------------------------
 
@@ -63,7 +63,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day2_Jav
 • System.err() and System.exit()  
 
 🔗 GitHub: Core-Java/Day3_Arrays  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day3_Arrays  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/Core-Java/Day3_Arrays
 
 ------------------------------------------------------------
 
@@ -80,7 +80,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day3_Arr
 • Unchecked vs. Checked Exceptions  
 
 🔗 GitHub: Core-Java/Day4_StringAndException  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day4_StringAndException  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/Core-Java/Day4_Methods
 
 ------------------------------------------------------------
 
@@ -94,7 +94,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day4_Str
 • java.lang.Math Class  
 
 🔗 GitHub: Core-Java/Day5_Methods  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day5_Methods  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/Core-Java/Day5_String
 
 ============================================================
 
@@ -106,7 +106,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Core-Java/Day5_Met
 • Principles of Object-Oriented Programming  
 
 🔗 GitHub: OOPS/Day1_Object-orientedProgrammingFundamental  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day1_Object-orientedProgrammingFundamental  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/OOPs/Day1_Object-orientedProgrammingFundamental  
 
 ------------------------------------------------------------
 
@@ -116,7 +116,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day1_Object-o
 • Access Modifiers  
 
 🔗 GitHub: OOPS/Day2_JavaConstructor  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day2_JavaConstructor  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/OOPs/Day2_JavaConstructor
 
 ------------------------------------------------------------
 
@@ -126,7 +126,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day2_JavaCons
 • Eclipse IDE Usage  
 
 🔗 GitHub: OOPS/Day3_thisStaticFinalKeywords  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day3_thisStaticFinalKeywords  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/OOPs/Day3_thisStaticFinalKeywords
 
 ------------------------------------------------------------
 
@@ -137,7 +137,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day3_thisStat
 • Sequence Diagrams  
 
 🔗 GitHub: OOPS/Day4_ObjectOrientedDesignPrincles  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day4_ObjectOrientedDesignPrincles  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/OOPs/Day4_ObjectOrientedDesignPrincles 
 
 ------------------------------------------------------------
 
@@ -150,7 +150,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day4_ObjectOr
 • Access Modifiers and Inheritance  
 
 🔗 GitHub: OOPS/Day5_Inheritance  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day5_Inheritance  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/OOPs/Day5_Inheritance 
 
 ------------------------------------------------------------
 
@@ -161,7 +161,7 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day5_Inherita
 • Abstract Classes  
 
 🔗 GitHub: OOPS/Day6_EncapPolymorInterAbst  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day6_EncapPolymorInterAbst  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/OOPs/Day6_EncapPolymorInterAbst
 
 ============================================================
 
@@ -176,4 +176,4 @@ https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/OOPS/Day6_EncapPol
 • Cab Invoice Generator  
 
 🔗 GitHub: Workshop  
-https://github.com/NISHANT-4901/BridgeLabz-SIPP-Training/tree/Workshop  
+https://github.com/VijayKumar-cs23/BridgeLabz-SIPP-Training/tree/Workshop  

@@ -1,0 +1,72 @@
+CLASS Pet
+    ATTRIBUTE name
+    ATTRIBUTE age
+    ATTRIBUTE breed
+    
+    CONSTRUCTOR Pet(petName, petAge, petBreed)
+        SET name = petName
+        SET age = petAge
+        SET breed = petBreed
+    
+    METHOD displayInfo()
+        PRINT "Name: " + name
+        PRINT "Age: " + age
+        PRINT "Breed: " + breed
+END CLASS
+
+
+CLASS Dog EXTENDS Pet
+    ATTRIBUTE isTrained
+    
+    CONSTRUCTOR Dog(dogName, dogAge, dogBreed, trained)
+        CALL SUPER(dogName, dogAge, dogBreed)   // initialize parent attributes
+        SET isTrained = trained
+    
+    METHOD displayInfo()
+        CALL SUPER.displayInfo()
+        PRINT "Trained: " + isTrained
+END CLASS
+
+
+CLASS Cat EXTENDS Pet
+    ATTRIBUTE isIndoor
+    
+    CONSTRUCTOR Cat(catName, catAge, catBreed, indoor)
+        CALL SUPER(catName, catAge, catBreed)
+        SET isIndoor = indoor
+    
+    METHOD displayInfo()
+        CALL SUPER.displayInfo()
+        PRINT "Indoor Cat: " + isIndoor
+END CLASS
+
+
+CLASS Bird EXTENDS Pet
+    ATTRIBUTE canTalk
+    
+    CONSTRUCTOR Bird(birdName, birdAge, birdBreed, talks)
+        CALL SUPER(birdName, birdAge, birdBreed)
+        SET canTalk = talks
+    
+    METHOD displayInfo()
+        CALL SUPER.displayInfo()
+        PRINT "Can Talk: " + canTalk
+END CLASS
+
+
+// MAIN PROGRAM
+FUNCTION main()
+    CREATE dog1 = NEW Dog("Rocky", 3, "German Shepherd", TRUE)
+    CREATE cat1 = NEW Cat("Mittens", 2, "Persian", TRUE)
+    CREATE bird1 = NEW Bird("Polly", 1, "Parrot", TRUE)
+
+    PRINT "--- Pet Adoption List ---"
+    CALL dog1.displayInfo()
+    CALL cat1.displayInfo()
+    CALL bird1.displayInfo()
+END FUNCTION
+
+
+
+
+

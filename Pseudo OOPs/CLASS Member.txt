@@ -1,0 +1,36 @@
+CLASS Member
+    ATTRIBUTES:
+        name           : STRING
+        id             : INTEGER
+        membershipDate : DATE   # Date when membership started
+
+    CONSTRUCTOR(name, id, membershipDate):
+        this.name           = name
+        this.id             = id
+        this.membershipDate = membershipDate
+
+    METHOD displayInfo():
+        PRINT "Member Name       : " + name
+        PRINT "Member ID         : " + id
+        PRINT "Membership Date   : " + membershipDate
+
+    METHOD isMembershipValid(currentDate : DATE) RETURNS BOOLEAN:
+        # Assume membership is valid for 1 year
+        expiryDate = membershipDate + 1 year
+        IF currentDate <= expiryDate THEN
+            RETURN TRUE
+        ELSE
+            RETURN FALSE
+
+
+# MAIN PROGRAM
+BEGIN
+    CREATE m1 = NEW Member("Vijay Kumar", 101, "2024-08-14")
+
+    CALL m1.displayInfo()
+
+    IF m1.isMembershipValid("2025-07-10") THEN
+        PRINT "Membership is still valid."
+    ELSE
+        PRINT "Membership has expired."
+END

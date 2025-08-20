@@ -1,0 +1,32 @@
+class TextEditor:
+    text = ""                      # Current text
+    undoStack = new Stack()
+
+    method insert(position, newText):
+        text = text[0:position] + newText + text[position:]
+        undoStack.push(("insert", newText, position))
+
+    method delete(position, length):
+        deletedText = text[position:position+length]
+        text = text[0:position] + text[position+length:]
+        undoStack.push(("delete", deletedText, position))
+
+    method undo():
+        if undoStack.isEmpty():
+            print("Nothing to undo")
+            return
+        
+        operation = undoStack.pop()
+        type, data, position = operation
+
+        if type == "insert":
+            # Remove the inserted text
+            length = len(data)
+            text = text[0:position] + text[position+length:]
+        
+        else if type == "delete":
+            # Reinsert the deleted text
+            text = text[0:position] + data + text[position:]
+
+    method show():
+        print("Current Text:", text)

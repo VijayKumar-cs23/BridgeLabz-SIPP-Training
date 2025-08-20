@@ -1,0 +1,22 @@
+class CallCenterQueue:
+    emergencyQueue = new Queue()
+    normalQueue = new Queue()
+
+    method enqueue(customer, priority):
+        if priority == "emergency":
+            emergencyQueue.enqueue(customer)
+        else:
+            normalQueue.enqueue(customer)
+
+    method dequeue():
+        if not emergencyQueue.isEmpty():
+            return emergencyQueue.dequeue()
+        else if not normalQueue.isEmpty():
+            return normalQueue.dequeue()
+        else:
+            print("No customers in queue")
+            return None
+
+    method showQueues():
+        print("Emergency Queue:", emergencyQueue)
+        print("Normal Queue:", normalQueue)
